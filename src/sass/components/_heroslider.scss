@@ -1,0 +1,130 @@
+.hero-slider {
+
+  height: 100vh;
+  max-height: 1080px;
+  overflow: hidden;
+  position: relative;
+  margin-bottom: 50px;
+  margin-top:calc(#{$header-tablet-height} * -0.7);
+  @include tablet {
+    margin-top: calc(#{$header-tablet-height} * -0.7);
+  }
+  @include mobile {
+    margin-top: calc(#{$header-mobile-height} * -0.7);
+  }
+  &__item {
+    @include flex(center, center);
+    opacity: 0;
+    visibility: hidden;
+    pointer-events: none;
+    position: absolute;
+    inset: 0;
+    &.active {
+      opacity: 1;
+      visibility: visible;
+      pointer-events: visible;
+    }
+    &__info{
+        width: 70%;
+        padding-top: 60px;
+        position: relative;
+        &__brand {
+            text-transform: uppercase;
+            font-size: 3rem;
+            font-weight: 900;
+            text-align: right;
+            padding-right: 20px
+        }
+        &__shoes {
+            
+            @include flex (center, center);
+            font-size: 17rem;
+            font-weight: 900;
+            text-transform: uppercase;
+            span{
+                line-height:1;
+            }
+        }
+        &__description{
+            width: 35%;
+            font-size: 1.2rem;
+            font-weight: 500;
+            padding-top:50px;
+        }
+        &__rating{
+            margin-top: 10px;
+            i{
+                color: $main-color;
+                font-size: 1.5rem;
+            }
+            i:last-child{
+                color: #000;
+            }
+        }
+    }
+    &__image {
+      position: absolute;
+      transform: rotate(9deg);
+    }
+    &__btn {
+      transform: rotate(270deg);
+      position: absolute;
+      top: 50%;
+      left: -50px;
+      font-size: 1.5rem;
+      font-weight: 900;
+      text-transform: uppercase;
+      
+      
+      a{
+        @include flex(center,center);
+        span{
+            letter-spacing: 8px;
+            
+        }
+        i{
+            font-size:2rem;
+            margin-left: 1rem;
+        }
+      }
+
+    }
+  }
+  &__control{
+    transform: rotate(90deg);
+    position: absolute;
+    top: 50%;
+    right: -35px;
+    @include flex(center,center);
+      &__name{
+        
+        font-size: 1.5rem;
+        font-weight: 900;
+        text-transform: uppercase;
+        margin-right: 20px;
+        span{
+            letter-spacing: 8px;
+        }
+      }
+      &__btn{
+        @include flex(center,center);
+
+        &__prev,
+        &__next{
+            font-size: 2rem;
+        }
+        &__selection{
+            
+            height:15px;
+            width:15px;
+            border-radius: 50%;
+            
+        }
+        &__selection ~ &__selection{
+            margin-left: 20px;
+        }
+        
+      }
+      
+  }
+}

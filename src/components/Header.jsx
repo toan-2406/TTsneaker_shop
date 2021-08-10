@@ -6,19 +6,19 @@ import logo from '../assets/images/logo.png'
 
 const mainNav = [
     {
-        display: "Home",
+        display: "Trang Chủ",
         path: '/'
     },
     {
-        display: "Product",
+        display: "Sản Phẩm",
         path: '/catalog'
     },
     {
-        display: "Accessories",
+        display: "Phụ Kiện",
         path: '/accessories'
     },
     {
-        display: "Contact",
+        display: "Liên Hệ",
         path: '/contact'
     },
 ]
