@@ -61,10 +61,19 @@
                 color: #000;
             }
         }
+        
     }
     &__image {
       position: absolute;
       transform: rotate(9deg);
+      img{
+        transform: scale(0.5) rotate(45deg);
+        transition: transform 0.3s cubic-bezier(.06,.51,.95,.2);
+      }
+
+    }
+    &.active &__image > img{
+        transform: scale(1) rotate(0)
     }
     &__btn {
       transform: rotate(270deg);
@@ -118,10 +127,12 @@
             height:15px;
             width:15px;
             border-radius: 50%;
+            margin-bottom: 2px;
             
         }
         &__selection ~ &__selection{
             margin-left: 20px;
+            
         }
         
       }

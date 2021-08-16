@@ -1,9 +1,10 @@
 $main-bg: #fff;
 $main-color: #FA5700;
 
-$txt-main-color: #000;
+$txt-main-color: $main-color;
 $txt-second-color: #8d8d8d;
 $txt-white-color: #fff;
+$txt-black-color: #000;
 
 $btn-main-bg: $main-color;
 $btn-main-color: #fff;
