@@ -8,14 +8,16 @@ import numberWithCommas from '../utils/numberWithCommas'
 const ProductCard = props => {
     return (
         <div className="product-card">
-            
+            <Link to={`/catalog/${props.slug}`}>
                 <div className="product-card__img">
                     <img src={props.img1} alt="" />
                     <img src={props.img2} alt="" />
                 </div>
+                
                 <h3 className="product-card__name">
                     {props.name}
                 </h3>
+            </Link>
                 <div className="product-card__price">
                     <span className="product-card__price__new">
                     {numberWithCommas(props.price) }
@@ -24,8 +26,8 @@ const ProductCard = props => {
                         <del>{numberWithCommas(3232132) }</del>
                     </span>
                 </div>
-
-            <Link to={`/catalog/${props.slug}`}>
+                
+            
                 <div className="product-card__btn">
                     <Button
                     size="sm"
@@ -36,7 +38,7 @@ const ProductCard = props => {
                         chọn mua
                     </Button>
                 </div>
-            </Link>
+            
             
         </div>
     )
