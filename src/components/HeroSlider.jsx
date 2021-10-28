@@ -57,11 +57,14 @@ const HeroSlider = props => {
                             <div className="hero-slider__control__btn__prev" onClick={PrevActiveSlider}>
                                 <i className='bx bx-chevron-left' ></i>
                             </div>
-                            {
+                            <div className="hero-slider__control__btn__color">
+{
                                 data.map((item, index) =>(
                                     <HeroSliderColors key={index} item={item}  />
                                 ))
                             }
+                            </div>
+                            
                             <div className="hero-slider__control__btn__next" onClick={NextActiveSlider}>
                                 <i className='bx bx-chevron-right' ></i>
                             </div>
@@ -71,6 +74,11 @@ const HeroSlider = props => {
                     </div>
                 ) : null
             }
+            <div className="hero-slider__item__btn">
+            <Link to='/catalog' >
+                <span>Shop now</span> <i className='bx bxs-cart-alt'></i>
+            </Link>
+        </div>
         </div>
     )
 }
@@ -83,7 +91,7 @@ HeroSlider.propTypes = {
 }
 
 const HeroSliderColors = props => (
-    <div className={`hero-slider__control__btn__selection bg-${props.item.color}`}  ></div>
+    <div className={`hero-slider__control__btn__color__selection bg-${props.item.color}`}  ></div>
 )
 
 const HeroSliderItem = props =>(
@@ -108,15 +116,12 @@ const HeroSliderItem = props =>(
                 <i className='bx bxs-star' ></i>
             </div>
         </div>
-        <div className="hero-slider__item__image">
+        <div className="hero-slider__item__image image">
             <img src={props.item.image} alt={props.item.brand + props.item.shoes}  />
         </div>
-        <div className="hero-slider__item__btn">
-            <Link to={props.item.path} >
-                <span>Shop now</span> <i className='bx bxs-cart-alt'></i>
-            </Link>
-        </div>
+        
     </div>
+    
 )
 
 export default HeroSlider

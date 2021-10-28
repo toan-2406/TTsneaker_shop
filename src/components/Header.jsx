@@ -54,8 +54,8 @@ const Header = () => {
         <div className="header" ref={headerRef}>
             <div className="container">
                 <div className="header__logo">
-                   
-                        <Link to="/">
+    
+                        <Link to='/'>
                             <img src={logo} alt="ttsneaker logo" />
                         </Link>
    

@@ -1,9 +1,13 @@
-import React from 'react'
+import React,{ useEffect} from 'react'
 import PropTypes from 'prop-types'
 
 const Helmet = props => {
 
     document.title = 'TTsneaker - ' + props.title
+
+    React.useEffect(() => {
+        window.scrollTo(0,0)
+    }, [])
 
     return (
         <div>
