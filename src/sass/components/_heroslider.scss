@@ -104,12 +104,13 @@
   }
   @include tablet {
     margin-top: calc(#{$header-tablet-height} * -0.7);
-    height: 60vh;
+    height: 80vh;
   }
-  @include mobile {
-    margin-top: calc(#{$header-mobile-height} * -0.7);
-    height: 50vh;
+  @include tablet1 {
+    margin-top: calc(#{$header-tablet-height} * -0.7);
+    height: 70vh;
   }
+
   &__item {
     opacity: 0;
     visibility: hidden;
