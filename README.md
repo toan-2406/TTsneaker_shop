@@ -1,5 +1,5 @@
 #Demo:
-https://tt-sneaker.herokuapp.com/
+https://tt-sneaker-shop.vercel.app/
 
 
 # Getting Started with Create React App
