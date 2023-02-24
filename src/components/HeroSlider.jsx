@@ -1,7 +1,7 @@
 import React, { useState, useEffect, useCallback } from "react";
 import PropTypes from "prop-types";
 import { Link } from "react-router-dom";
-
+import banner from '../assets/images/banner.jpg'
 const HeroSlider = (props) => {
   const data = props.data;
 
@@ -35,40 +35,7 @@ const HeroSlider = (props) => {
 
   return (
     <div className="hero-slider ">
-      {data.map((item, index) => (
-        <HeroSliderItem
-          key={index}
-          item={item}
-          active={index === activeSlider}
-        />
-      ))}
-      {props.control ? (
-        <div className="hero-slider__control">
-          <div className="hero-slider__control__name">
-            <span>Colors</span>
-          </div>
-          <div className="hero-slider__control__btn">
-            <div
-              className="hero-slider__control__btn__prev"
-              onClick={PrevActiveSlider}
-            >
-              <i className="bx bx-chevron-left"></i>
-            </div>
-            <div className="hero-slider__control__btn__color">
-              {data.map((item, index) => (
-                <HeroSliderColors key={index} item={item} />
-              ))}
-            </div>
-
-            <div
-              className="hero-slider__control__btn__next"
-              onClick={NextActiveSlider}
-            >
-              <i className="bx bx-chevron-right"></i>
-            </div>
-          </div>
-        </div>
-      ) : null}
+      <img src={banner}/>
       <div className="hero-slider__item__btn">
         <Link to="/catalog">
           <span>Shop now</span> <i className="bx bxs-cart-alt"></i>

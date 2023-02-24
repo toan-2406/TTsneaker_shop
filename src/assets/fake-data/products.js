@@ -1,13 +1,20 @@
 const product_01_image_01 =
-  "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/d5f8cb8c-cdc5-467f-9861-0f0b48144204/jordan-air-nfh-shoes-1msFvZ.png";
+  "https://cf.shopee.vn/file/vn-11134207-23020-0jo7ar8axpnv85";
 const product_01_image_02 =
-  "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5,q_80/a451d49d-2454-46cc-9c16-96726cea6367/jordan-air-nfh-shoes-1msFvZ.png";
-// const product_01_image_03 = '../images/products/product-01 (3).jpg'
+  "https://cf.shopee.vn/file/vn-11134207-23020-jio7ar8axpnvad";
+const product_01_image_03 =
+  "https://cf.shopee.vn/file/vn-11134207-23020-p9t49s8axpnv66";
+const product_01_image_04 =
+  "https://cf.shopee.vn/file/vn-11134207-23020-89k1gv8axpnvda";
 
 const product_02_image_01 =
-  "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/ae84199e-1240-43d7-8635-b8e174e6f346/air-force-1-gore-tex-shoes-xkl3Ps.png";
+  "https://cf.shopee.vn/file/vn-11134207-23020-pclbkplk6pnvb6";
 const product_02_image_02 =
-  "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5,q_80/93eb0f23-aaa0-4959-ae8a-b0a3eb0f4e36/air-force-1-gore-tex-shoes-xkl3Ps.png";
+  "https://cf.shopee.vn/file/vn-11134207-23020-zalbkplk6pnva3";
+  const product_02_image_03 =
+  "https://cf.shopee.vn/file/vn-11134207-23020-bgdaeqlk6pnv09";
+const product_02_image_04 =
+  "https://cf.shopee.vn/file/vn-11134207-23020-xec9rrlk6pnv31";
 
 const product_03_image_01 =
   "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/5d2847b9-22c8-4d84-80ae-905b4cb8bbff/zoomx-vaporfly-next-2-road-racing-shoe-STlc3F.png";
@@ -21,184 +28,147 @@ const product_04_image_02 =
 
 const products = [
   {
-    title: "Jordan Air NFH",
-    price: "1890000",
-    image01: product_01_image_01,
-    image02: product_01_image_02,
-    categorySlug: "giay-jordan",
-    colors: ["white", "black"],
-    slug: "giay-jordan-air-nfh",
-    size: ["42", "42.5", "43", "43.5"],
+    title: "HẠT ĐIỀU SẤY – HẠT ĐIỀU RANG MUỐI",
+    price: "239000",
+    images: [
+      product_01_image_01,
+      product_01_image_02,
+      product_01_image_03,
+      product_01_image_04,
+    ],
+    categorySlug: "hat-dieu-say",
+    colors: ["nguyên vị", "nguyên vỏ","tách vỏ"],
+    slug: "hat-dieu-say-hat-dieu-rang-muoi",
+    size: ["250gram", "500gram", "Combo 250gram+500gram"],
     description:
-      "Con đường là đường băng của bạn. Hãy sẵn sàng để bay trên ngựa lao động với đôi cánh. Khởi động bài chạy hàng ngày của bạn với một lò xo trong bước của bạn và đệm hỗ trợ để giúp vượt qua đối thủ cạnh tranh khốc liệt nhất của bạn — chính bạn. Lưới ở phía trên kết hợp sự thoải mái và độ bền bạn muốn với hệ thống nhập FlyEase giúp bạn nhập cảnh nhanh chóng và dễ dàng.Cái gì đó cũ, cái gì đó mới. Bàn chân trước rộng hơn có nghĩa là có nhiều không gian hơn cho các ngón chân của bạn, trong khi độ vừa vặn của giày duy trì cảm giác thoải mái mà bạn mong đợi từ Pegasus. Lưới ở trên tạo cảm giác thoáng khí và sang trọng khi kéo dài bằng bàn chân của bạn để tạo hình dáng thoải mái và vừa vặn.Vào nhanh.Mục nhập mã zip giúp bạn dễ dàng lên và xuống nhanh chóng. Viền không dây buộc cho phép bạn cố định vừa vặn bằng 1 tay.Mùa xuân với bước của bạn.Bọt Nike React nhẹ, có độ đàn hồi và độ bền cao. Nhiều bọt hơn có nghĩa là đệm tốt hơn mà không có số lượng lớn. Một bộ phận Zoom Air mang lại cho bạn cảm giác thoải mái hơn với mỗi bước. Nó được đặt gần chân của bạn hơn để phản hồi. Phù hợp an toàn. Vải lót giữa bàn chân giữ chặt bàn chân của bạn khi bạn thắt chặt các dây buộc để có cảm giác vừa khít và vừa vặn. Nhiều lợi ích hơn",
+      `Thành phần: hạt điều sấy, muối, gia vị tổng tợp
+
+Công dụng:
+- Ngăn ngừa ung thư
+- Nuôi dưỡng tóc và da
+- Duy trì sức khỏe tim mạch
+- Tốt cho sức khỏe của xương
+- Tốt cho thần kinh
+- Cải thiện chức năng não
+- Giảm cân
+
+Hướng dẫn sử dụng: ăn trực tiếp
+
+Hướng dẫn bảo quản: Bảo quản tại nơi thoáng mát, khô ráo, tránh ánh nắng trực tiếp.
+
+Trọng lượng: 200gram – 500gram
+
+- Xuất xứ: Việt Nam
+- Hạn sử dụng: 06 tháng kể từ ngày sản xuất
+
+#hatdieu #hatdieurangmuoi #hatdieusay #giamcan #timmach #ankieng #traicaysay #hatdinhduong #hatsay
+`,
   },
   {
-    title: "Nike Metcon 7",
-    price: "1590000",
-    image01: product_02_image_01,
-    image02: product_02_image_02,
-    categorySlug: "giay-training-gym",
-    colors: ["white", "red"],
-    slug: "giay-nike-metcon-7",
-    size: ["42", "42.5", "43", "43.5"],
+    title: "HẠT ĐIỀU SẤY – HẠT ĐIỀU RANG MUỐI",
+    price: "239000",
+    images: [
+      product_01_image_01,
+      product_01_image_02,
+      product_01_image_03,
+      product_01_image_04,
+    ],
+    categorySlug: "hat-dieu-say",
+    colors: ["nguyên vị", "nguyên vỏ","tách vỏ"],
+    slug: "hat-dieu-say-hat-dieu-rang-muoi",
+    size: ["250gram", "500gram", "Combo 250gram+500gram"],
     description:
-      "Con đường là đường băng của bạn. Hãy sẵn sàng để bay trên ngựa lao động với đôi cánh. Khởi động bài chạy hàng ngày của bạn với một lò xo trong bước của bạn và đệm hỗ trợ để giúp vượt qua đối thủ cạnh tranh khốc liệt nhất của bạn — chính bạn. Lưới ở phía trên kết hợp sự thoải mái và độ bền bạn muốn với hệ thống nhập FlyEase giúp bạn nhập cảnh nhanh chóng và dễ dàng.Cái gì đó cũ, cái gì đó mới. Bàn chân trước rộng hơn có nghĩa là có nhiều không gian hơn cho các ngón chân của bạn, trong khi độ vừa vặn của giày duy trì cảm giác thoải mái mà bạn mong đợi từ Pegasus. Lưới ở trên tạo cảm giác thoáng khí và sang trọng khi kéo dài bằng bàn chân của bạn để tạo hình dáng thoải mái và vừa vặn.Vào nhanh.Mục nhập mã zip giúp bạn dễ dàng lên và xuống nhanh chóng. Viền không dây buộc cho phép bạn cố định vừa vặn bằng 1 tay.Mùa xuân với bước của bạn.Bọt Nike React nhẹ, có độ đàn hồi và độ bền cao. Nhiều bọt hơn có nghĩa là đệm tốt hơn mà không có số lượng lớn. Một bộ phận Zoom Air mang lại cho bạn cảm giác thoải mái hơn với mỗi bước. Nó được đặt gần chân của bạn hơn để phản hồi. Phù hợp an toàn. Vải lót giữa bàn chân giữ chặt bàn chân của bạn khi bạn thắt chặt các dây buộc để có cảm giác vừa khít và vừa vặn. Nhiều lợi ích hơn",
+      `Thành phần: hạt điều sấy, muối, gia vị tổng tợp
+
+Công dụng:
+- Ngăn ngừa ung thư
+- Nuôi dưỡng tóc và da
+- Duy trì sức khỏe tim mạch
+- Tốt cho sức khỏe của xương
+- Tốt cho thần kinh
+- Cải thiện chức năng não
+- Giảm cân
+
+Hướng dẫn sử dụng: ăn trực tiếp
+
+Hướng dẫn bảo quản: Bảo quản tại nơi thoáng mát, khô ráo, tránh ánh nắng trực tiếp.
+
+Trọng lượng: 200gram – 500gram
+
+- Xuất xứ: Việt Nam
+- Hạn sử dụng: 06 tháng kể từ ngày sản xuất
+
+#hatdieu #hatdieurangmuoi #hatdieusay #giamcan #timmach #ankieng #traicaysay #hatdinhduong #hatsay
+`,
   },
   {
-    title: "Nike Air Force 1 GORE-TEX ®",
-    price: "1900000",
-    image01: product_03_image_01,
-    image02: product_03_image_02,
-    categorySlug: "giay-life-style",
-    colors: ["white", "orange", "yellow"],
-    slug: "giay-nike-air-force-1-gore-tex",
-    size: ["40", "41", "42", "43.5"],
+    title: "HẠT BÍ TÁCH VỎ",
+    price: "249000",
+    images: [
+      product_02_image_01,
+      product_02_image_02,
+      product_02_image_03,
+      product_02_image_04,
+    ],
+    categorySlug: "hat-bi-tach-vo",
+    colors: ["hạt loại 1", "hạt loại 2"],
+    slug: "hat-bi-tach-vo",
+    size: ["250gram", "500gram", "Combo 250gram+500gram"],
     description:
-      "Con đường là đường băng của bạn. Hãy sẵn sàng để bay trên ngựa lao động với đôi cánh. Khởi động bài chạy hàng ngày của bạn với một lò xo trong bước của bạn và đệm hỗ trợ để giúp vượt qua đối thủ cạnh tranh khốc liệt nhất của bạn — chính bạn. Lưới ở phía trên kết hợp sự thoải mái và độ bền bạn muốn với hệ thống nhập FlyEase giúp bạn nhập cảnh nhanh chóng và dễ dàng.Cái gì đó cũ, cái gì đó mới. Bàn chân trước rộng hơn có nghĩa là có nhiều không gian hơn cho các ngón chân của bạn, trong khi độ vừa vặn của giày duy trì cảm giác thoải mái mà bạn mong đợi từ Pegasus. Lưới ở trên tạo cảm giác thoáng khí và sang trọng khi kéo dài bằng bàn chân của bạn để tạo hình dáng thoải mái và vừa vặn.Vào nhanh.Mục nhập mã zip giúp bạn dễ dàng lên và xuống nhanh chóng. Viền không dây buộc cho phép bạn cố định vừa vặn bằng 1 tay.Mùa xuân với bước của bạn.Bọt Nike React nhẹ, có độ đàn hồi và độ bền cao. Nhiều bọt hơn có nghĩa là đệm tốt hơn mà không có số lượng lớn. Một bộ phận Zoom Air mang lại cho bạn cảm giác thoải mái hơn với mỗi bước. Nó được đặt gần chân của bạn hơn để phản hồi. Phù hợp an toàn. Vải lót giữa bàn chân giữ chặt bàn chân của bạn khi bạn thắt chặt các dây buộc để có cảm giác vừa khít và vừa vặn. Nhiều lợi ích hơn",
+      `Hạt Bí Xanh Ấn Độ - Công dụng và lợi ích cho sức khỏe
+      Hạt bí xanh Ấn Độ được đóng gói trong hũ/túi 500g và có hạn sử dụng là 1 năm. Sản phẩm này xuất xứ từ Ấn Độ và có nhiều công dụng và lợi ích cho sức khỏe.
+      
+      Bổ sung năng lượng cho cơ thể
+      Hạt bí xanh chứa nhiều chất magie, chỉ cần 1/4 chén hạt bí đã cung cấp gần 1/2 lượng magie cần thiết cho cơ thể trong ngày. Điều này giúp bổ sung năng lượng cho cơ thể một cách hiệu quả.
+      
+      Ngăn ngừa bệnh tiểu đường
+      Các dưỡng chất có trong hạt bí có thể giúp cải thiện sự điều tiết insulin và giúp ngăn ngừa các biến chứng tiểu đường. Điều này làm cho sản phẩm này trở thành một phương tiện chăm sóc sức khỏe hiệu quả cho người bị tiểu đường.
+      
+      Tốt cho hệ tim mạch
+      Hạt bí xanh giàu chất béo lành mạnh, chất chống oxy hoá và chất xơ, có thể mang lại lợi ích cho sức khỏe tim và gan. Điều này giúp giảm nguy cơ các bệnh tim mạch và cải thiện chức năng gan.
+      
+      Tăng cường hệ miễn dịch
+      Hạt bí xanh là một nguồn giàu kẽm (một ounce chứa hơn 2 mg khoáng chất có lợi này). Kẽm có vai trò quan trọng đối với cơ thể giúp tăng cường hệ miễn dịch, tăng trưởng và phân chia tế bào, tăng khả năng của các giác quan về vị giác và khứu giác. Việc bổ sung hạt bí vào chế độ ăn hàng ngày giúp bổ sung nguồn kẽm tự nhiên và làm tăng khả năng miễn dịch.
+      
+      Giàu chất béo Omega-3
+      Hạt bí xanh là nguồn thực vật cung cấp lượng omega 3 rất lớn. Điều này là cần thiết cho sự hình thành và phát triển của não bộ, xương, rất tốt cho hệ tim mạch và nhiều lợi ích khác. Đây cũng là lý do mà phụ nữ mang thai và trẻ nhỏ rất yêu thích sản phẩm này.`,
   },
   {
-    title: "Jordan Air NFH",
-    price: "1940000",
-    image01: product_01_image_01,
-    image02: product_01_image_02,
-    categorySlug: "giay-jordan",
-    colors: ["white", "black"],
-    slug: "giay-jordan-air-nfh",
-    size: ["42", "42.5", "43", "43.5"],
+    title: "HẠT ĐIỀU SẤY – HẠT ĐIỀU RANG MUỐI",
+    price: "239000",
+    images: [
+      product_01_image_01,
+      product_01_image_02,
+      product_01_image_03,
+      product_01_image_04,
+    ],
+    categorySlug: "hat-dieu-say",
+    colors: ["nguyên vị", "nguyên vỏ","tách vỏ"],
+    slug: "hat-dieu-say-hat-dieu-rang-muoi",
+    size: ["250gram", "500gram", "Combo 250gram+500gram"],
     description:
-      "Con đường là đường băng của bạn. Hãy sẵn sàng để bay trên ngựa lao động với đôi cánh. Khởi động bài chạy hàng ngày của bạn với một lò xo trong bước của bạn và đệm hỗ trợ để giúp vượt qua đối thủ cạnh tranh khốc liệt nhất của bạn — chính bạn. Lưới ở phía trên kết hợp sự thoải mái và độ bền bạn muốn với hệ thống nhập FlyEase giúp bạn nhập cảnh nhanh chóng và dễ dàng.Cái gì đó cũ, cái gì đó mới. Bàn chân trước rộng hơn có nghĩa là có nhiều không gian hơn cho các ngón chân của bạn, trong khi độ vừa vặn của giày duy trì cảm giác thoải mái mà bạn mong đợi từ Pegasus. Lưới ở trên tạo cảm giác thoáng khí và sang trọng khi kéo dài bằng bàn chân của bạn để tạo hình dáng thoải mái và vừa vặn.Vào nhanh.Mục nhập mã zip giúp bạn dễ dàng lên và xuống nhanh chóng. Viền không dây buộc cho phép bạn cố định vừa vặn bằng 1 tay.Mùa xuân với bước của bạn.Bọt Nike React nhẹ, có độ đàn hồi và độ bền cao. Nhiều bọt hơn có nghĩa là đệm tốt hơn mà không có số lượng lớn. Một bộ phận Zoom Air mang lại cho bạn cảm giác thoải mái hơn với mỗi bước. Nó được đặt gần chân của bạn hơn để phản hồi. Phù hợp an toàn. Vải lót giữa bàn chân giữ chặt bàn chân của bạn khi bạn thắt chặt các dây buộc để có cảm giác vừa khít và vừa vặn. Nhiều lợi ích hơn",
-  },
-  {
-    title: "Nike Air Force 1 GORE-TEX ®",
-    price: "1890000",
-    image01: product_03_image_01,
-    image02: product_03_image_02,
-    categorySlug: "giay-life-style",
-    colors: ["white", "orange", "yellow"],
-    slug: "giay-nike-air-force-1-gore-tex",
-    size: ["40", "41", "42", "43.5"],
-    description:
-      "Con đường là đường băng của bạn. Hãy sẵn sàng để bay trên ngựa lao động với đôi cánh. Khởi động bài chạy hàng ngày của bạn với một lò xo trong bước của bạn và đệm hỗ trợ để giúp vượt qua đối thủ cạnh tranh khốc liệt nhất của bạn — chính bạn. Lưới ở phía trên kết hợp sự thoải mái và độ bền bạn muốn với hệ thống nhập FlyEase giúp bạn nhập cảnh nhanh chóng và dễ dàng.Cái gì đó cũ, cái gì đó mới. Bàn chân trước rộng hơn có nghĩa là có nhiều không gian hơn cho các ngón chân của bạn, trong khi độ vừa vặn của giày duy trì cảm giác thoải mái mà bạn mong đợi từ Pegasus. Lưới ở trên tạo cảm giác thoáng khí và sang trọng khi kéo dài bằng bàn chân của bạn để tạo hình dáng thoải mái và vừa vặn.Vào nhanh.Mục nhập mã zip giúp bạn dễ dàng lên và xuống nhanh chóng. Viền không dây buộc cho phép bạn cố định vừa vặn bằng 1 tay.Mùa xuân với bước của bạn.Bọt Nike React nhẹ, có độ đàn hồi và độ bền cao. Nhiều bọt hơn có nghĩa là đệm tốt hơn mà không có số lượng lớn. Một bộ phận Zoom Air mang lại cho bạn cảm giác thoải mái hơn với mỗi bước. Nó được đặt gần chân của bạn hơn để phản hồi. Phù hợp an toàn. Vải lót giữa bàn chân giữ chặt bàn chân của bạn khi bạn thắt chặt các dây buộc để có cảm giác vừa khít và vừa vặn. Nhiều lợi ích hơn",
-  },
-  {
-    title: "Nike Air Force 1 GORE-TEX ®",
-    price: "1590000",
-    image01: product_03_image_01,
-    image02: product_03_image_02,
-    categorySlug: "giay-life-style",
-    colors: ["white", "orange", "yellow"],
-    slug: "giay-nike-air-force-1-gore-tex",
-    size: ["40", "41", "42", "43.5"],
-    description:
-      "Con đường là đường băng của bạn. Hãy sẵn sàng để bay trên ngựa lao động với đôi cánh. Khởi động bài chạy hàng ngày của bạn với một lò xo trong bước của bạn và đệm hỗ trợ để giúp vượt qua đối thủ cạnh tranh khốc liệt nhất của bạn — chính bạn. Lưới ở phía trên kết hợp sự thoải mái và độ bền bạn muốn với hệ thống nhập FlyEase giúp bạn nhập cảnh nhanh chóng và dễ dàng.Cái gì đó cũ, cái gì đó mới. Bàn chân trước rộng hơn có nghĩa là có nhiều không gian hơn cho các ngón chân của bạn, trong khi độ vừa vặn của giày duy trì cảm giác thoải mái mà bạn mong đợi từ Pegasus. Lưới ở trên tạo cảm giác thoáng khí và sang trọng khi kéo dài bằng bàn chân của bạn để tạo hình dáng thoải mái và vừa vặn.Vào nhanh.Mục nhập mã zip giúp bạn dễ dàng lên và xuống nhanh chóng. Viền không dây buộc cho phép bạn cố định vừa vặn bằng 1 tay.Mùa xuân với bước của bạn.Bọt Nike React nhẹ, có độ đàn hồi và độ bền cao. Nhiều bọt hơn có nghĩa là đệm tốt hơn mà không có số lượng lớn. Một bộ phận Zoom Air mang lại cho bạn cảm giác thoải mái hơn với mỗi bước. Nó được đặt gần chân của bạn hơn để phản hồi. Phù hợp an toàn. Vải lót giữa bàn chân giữ chặt bàn chân của bạn khi bạn thắt chặt các dây buộc để có cảm giác vừa khít và vừa vặn. Nhiều lợi ích hơn",
-  },
-  {
-    title: "Nike Air Force 1 GORE-TEX ®",
-    price: "1900000",
-    image01: product_03_image_01,
-    image02: product_03_image_02,
-    categorySlug: "giay-life-style",
-    colors: ["white", "orange", "yellow"],
-    slug: "giay-nike-air-force-1-gore-tex",
-    size: ["40", "41", "42", "43.5"],
-    description:
-      "Con đường là đường băng của bạn. Hãy sẵn sàng để bay trên ngựa lao động với đôi cánh. Khởi động bài chạy hàng ngày của bạn với một lò xo trong bước của bạn và đệm hỗ trợ để giúp vượt qua đối thủ cạnh tranh khốc liệt nhất của bạn — chính bạn. Lưới ở phía trên kết hợp sự thoải mái và độ bền bạn muốn với hệ thống nhập FlyEase giúp bạn nhập cảnh nhanh chóng và dễ dàng.Cái gì đó cũ, cái gì đó mới. Bàn chân trước rộng hơn có nghĩa là có nhiều không gian hơn cho các ngón chân của bạn, trong khi độ vừa vặn của giày duy trì cảm giác thoải mái mà bạn mong đợi từ Pegasus. Lưới ở trên tạo cảm giác thoáng khí và sang trọng khi kéo dài bằng bàn chân của bạn để tạo hình dáng thoải mái và vừa vặn.Vào nhanh.Mục nhập mã zip giúp bạn dễ dàng lên và xuống nhanh chóng. Viền không dây buộc cho phép bạn cố định vừa vặn bằng 1 tay.Mùa xuân với bước của bạn.Bọt Nike React nhẹ, có độ đàn hồi và độ bền cao. Nhiều bọt hơn có nghĩa là đệm tốt hơn mà không có số lượng lớn. Một bộ phận Zoom Air mang lại cho bạn cảm giác thoải mái hơn với mỗi bước. Nó được đặt gần chân của bạn hơn để phản hồi. Phù hợp an toàn. Vải lót giữa bàn chân giữ chặt bàn chân của bạn khi bạn thắt chặt các dây buộc để có cảm giác vừa khít và vừa vặn. Nhiều lợi ích hơn",
-  },
-  {
-    title: "Nike ZoomX Vaporfly Next% 2",
-    price: "1940000",
-    image01: product_04_image_01,
-    image02: product_04_image_02,
-    categorySlug: "giay-running",
-    colors: ["white", "orange", "blue"],
-    slug: "giay-nike-zoomx-vaporfly-next",
-    size: ["40", "41", "42", "43.5"],
-    description:
-      "Con đường là đường băng của bạn. Hãy sẵn sàng để bay trên ngựa lao động với đôi cánh. Khởi động bài chạy hàng ngày của bạn với một lò xo trong bước của bạn và đệm hỗ trợ để giúp vượt qua đối thủ cạnh tranh khốc liệt nhất của bạn — chính bạn. Lưới ở phía trên kết hợp sự thoải mái và độ bền bạn muốn với hệ thống nhập FlyEase giúp bạn nhập cảnh nhanh chóng và dễ dàng.Cái gì đó cũ, cái gì đó mới. Bàn chân trước rộng hơn có nghĩa là có nhiều không gian hơn cho các ngón chân của bạn, trong khi độ vừa vặn của giày duy trì cảm giác thoải mái mà bạn mong đợi từ Pegasus. Lưới ở trên tạo cảm giác thoáng khí và sang trọng khi kéo dài bằng bàn chân của bạn để tạo hình dáng thoải mái và vừa vặn.Vào nhanh.Mục nhập mã zip giúp bạn dễ dàng lên và xuống nhanh chóng. Viền không dây buộc cho phép bạn cố định vừa vặn bằng 1 tay.Mùa xuân với bước của bạn.Bọt Nike React nhẹ, có độ đàn hồi và độ bền cao. Nhiều bọt hơn có nghĩa là đệm tốt hơn mà không có số lượng lớn. Một bộ phận Zoom Air mang lại cho bạn cảm giác thoải mái hơn với mỗi bước. Nó được đặt gần chân của bạn hơn để phản hồi. Phù hợp an toàn. Vải lót giữa bàn chân giữ chặt bàn chân của bạn khi bạn thắt chặt các dây buộc để có cảm giác vừa khít và vừa vặn. Nhiều lợi ích hơn",
-  },
-  {
-    title: "Nike ZoomX Vaporfly Next% 2",
-    price: "1890000",
-    image01: product_04_image_01,
-    image02: product_04_image_02,
-    categorySlug: "giay-running",
-    colors: ["white", "orange", "blue"],
-    slug: "giay-nike-zoomx-vaporfly-next",
-    size: ["40", "41", "42", "43.5"],
-    description:
-      "Con đường là đường băng của bạn. Hãy sẵn sàng để bay trên ngựa lao động với đôi cánh. Khởi động bài chạy hàng ngày của bạn với một lò xo trong bước của bạn và đệm hỗ trợ để giúp vượt qua đối thủ cạnh tranh khốc liệt nhất của bạn — chính bạn. Lưới ở phía trên kết hợp sự thoải mái và độ bền bạn muốn với hệ thống nhập FlyEase giúp bạn nhập cảnh nhanh chóng và dễ dàng.Cái gì đó cũ, cái gì đó mới. Bàn chân trước rộng hơn có nghĩa là có nhiều không gian hơn cho các ngón chân của bạn, trong khi độ vừa vặn của giày duy trì cảm giác thoải mái mà bạn mong đợi từ Pegasus. Lưới ở trên tạo cảm giác thoáng khí và sang trọng khi kéo dài bằng bàn chân của bạn để tạo hình dáng thoải mái và vừa vặn.Vào nhanh.Mục nhập mã zip giúp bạn dễ dàng lên và xuống nhanh chóng. Viền không dây buộc cho phép bạn cố định vừa vặn bằng 1 tay.Mùa xuân với bước của bạn.Bọt Nike React nhẹ, có độ đàn hồi và độ bền cao. Nhiều bọt hơn có nghĩa là đệm tốt hơn mà không có số lượng lớn. Một bộ phận Zoom Air mang lại cho bạn cảm giác thoải mái hơn với mỗi bước. Nó được đặt gần chân của bạn hơn để phản hồi. Phù hợp an toàn. Vải lót giữa bàn chân giữ chặt bàn chân của bạn khi bạn thắt chặt các dây buộc để có cảm giác vừa khít và vừa vặn. Nhiều lợi ích hơn",
-  },
-  {
-    title: "Jordan Air NFH",
-    price: "1590000",
-    image01: product_01_image_01,
-    image02: product_01_image_02,
-    categorySlug: "giay-jordan",
-    colors: ["white", "black"],
-    slug: "giay-jordan-air-nfh",
-    size: ["42", "42.5", "43", "43.5"],
-    description:
-      "<h2Con đường là đường băng</h2> của bạn. Hãy sẵn sàng để bay trên ngựa lao động với đôi cánh. Khởi động bài chạy hàng ngày của bạn với một lò xo trong bước của bạn và đệm hỗ trợ để giúp vượt qua đối thủ cạnh tranh khốc liệt nhất của bạn — chính bạn. Lưới ở phía trên kết hợp sự thoải mái và độ bền bạn muốn với hệ thống nhập FlyEase giúp bạn nhập cảnh nhanh chóng và dễ dàng.Cái gì đó cũ, cái gì đó mới. Bàn chân trước rộng hơn có nghĩa là có nhiều không gian hơn cho các ngón chân của bạn, trong khi độ vừa vặn của giày duy trì cảm giác thoải mái mà bạn mong đợi từ Pegasus. Lưới ở trên tạo cảm giác thoáng khí và sang trọng khi kéo dài bằng bàn chân của bạn để tạo hình dáng thoải mái và vừa vặn.Vào nhanh.Mục nhập mã zip giúp bạn dễ dàng lên và xuống nhanh chóng. Viền không dây buộc cho phép bạn cố định vừa vặn bằng 1 tay.Mùa xuân với bước của bạn.Bọt Nike React nhẹ, có độ đàn hồi và độ bền cao. Nhiều bọt hơn có nghĩa là đệm tốt hơn mà không có số lượng lớn. Một bộ phận Zoom Air mang lại cho bạn cảm giác thoải mái hơn với mỗi bước. Nó được đặt gần chân của bạn hơn để phản hồi. Phù hợp an toàn. Vải lót giữa bàn chân giữ chặt bàn chân của bạn khi bạn thắt chặt các dây buộc để có cảm giác vừa khít và vừa vặn. Nhiều lợi ích hơn",
-  },
-  {
-    title: "Nike Air Force 1 GORE-TEX ®",
-    price: "1900000",
-    image01: product_03_image_01,
-    image02: product_03_image_02,
-    categorySlug: "giay-life-style",
-    colors: ["white", "orange", "yellow"],
-    slug: "giay-nike-air-force-1-gore-tex",
-    size: ["40", "41", "42", "43.5"],
-    description:
-      "Con đường là đường băng của bạn. Hãy sẵn sàng để bay trên ngựa lao động với đôi cánh. Khởi động bài chạy hàng ngày của bạn với một lò xo trong bước của bạn và đệm hỗ trợ để giúp vượt qua đối thủ cạnh tranh khốc liệt nhất của bạn — chính bạn. Lưới ở phía trên kết hợp sự thoải mái và độ bền bạn muốn với hệ thống nhập FlyEase giúp bạn nhập cảnh nhanh chóng và dễ dàng.Cái gì đó cũ, cái gì đó mới. Bàn chân trước rộng hơn có nghĩa là có nhiều không gian hơn cho các ngón chân của bạn, trong khi độ vừa vặn của giày duy trì cảm giác thoải mái mà bạn mong đợi từ Pegasus. Lưới ở trên tạo cảm giác thoáng khí và sang trọng khi kéo dài bằng bàn chân của bạn để tạo hình dáng thoải mái và vừa vặn.Vào nhanh.Mục nhập mã zip giúp bạn dễ dàng lên và xuống nhanh chóng. Viền không dây buộc cho phép bạn cố định vừa vặn bằng 1 tay.Mùa xuân với bước của bạn.Bọt Nike React nhẹ, có độ đàn hồi và độ bền cao. Nhiều bọt hơn có nghĩa là đệm tốt hơn mà không có số lượng lớn. Một bộ phận Zoom Air mang lại cho bạn cảm giác thoải mái hơn với mỗi bước. Nó được đặt gần chân của bạn hơn để phản hồi. Phù hợp an toàn. Vải lót giữa bàn chân giữ chặt bàn chân của bạn khi bạn thắt chặt các dây buộc để có cảm giác vừa khít và vừa vặn. Nhiều lợi ích hơn",
-  },
-  {
-    title: "Nike ZoomX Vaporfly Next% 2",
-    price: "1940000",
-    image01: product_04_image_01,
-    image02: product_04_image_02,
-    categorySlug: "giay-running",
-    colors: ["white", "orange", "blue"],
-    slug: "giay-nike-zoomx-vaporfly-next",
-    size: ["40", "41", "42", "43.5"],
-    description:
-      "Con đường là đường băng của bạn. Hãy sẵn sàng để bay trên ngựa lao động với đôi cánh. Khởi động bài chạy hàng ngày của bạn với một lò xo trong bước của bạn và đệm hỗ trợ để giúp vượt qua đối thủ cạnh tranh khốc liệt nhất của bạn — chính bạn. Lưới ở phía trên kết hợp sự thoải mái và độ bền bạn muốn với hệ thống nhập FlyEase giúp bạn nhập cảnh nhanh chóng và dễ dàng.Cái gì đó cũ, cái gì đó mới. Bàn chân trước rộng hơn có nghĩa là có nhiều không gian hơn cho các ngón chân của bạn, trong khi độ vừa vặn của giày duy trì cảm giác thoải mái mà bạn mong đợi từ Pegasus. Lưới ở trên tạo cảm giác thoáng khí và sang trọng khi kéo dài bằng bàn chân của bạn để tạo hình dáng thoải mái và vừa vặn.Vào nhanh.Mục nhập mã zip giúp bạn dễ dàng lên và xuống nhanh chóng. Viền không dây buộc cho phép bạn cố định vừa vặn bằng 1 tay.Mùa xuân với bước của bạn.Bọt Nike React nhẹ, có độ đàn hồi và độ bền cao. Nhiều bọt hơn có nghĩa là đệm tốt hơn mà không có số lượng lớn. Một bộ phận Zoom Air mang lại cho bạn cảm giác thoải mái hơn với mỗi bước. Nó được đặt gần chân của bạn hơn để phản hồi. Phù hợp an toàn. Vải lót giữa bàn chân giữ chặt bàn chân của bạn khi bạn thắt chặt các dây buộc để có cảm giác vừa khít và vừa vặn. Nhiều lợi ích hơn",
-  },
-  {
-    title: "Nike Metcon 7",
-    price: "1890000",
-    image01: product_02_image_01,
-    image02: product_02_image_02,
-    categorySlug: "giay-training-gym",
-    colors: ["white", "red"],
-    slug: "giay-nike-metcon-7",
-    size: ["42", "42.5", "43", "43.5"],
-    description:
-      "Con đường là đường băng của bạn. Hãy sẵn sàng để bay trên ngựa lao động với đôi cánh. Khởi động bài chạy hàng ngày của bạn với một lò xo trong bước của bạn và đệm hỗ trợ để giúp vượt qua đối thủ cạnh tranh khốc liệt nhất của bạn — chính bạn. Lưới ở phía trên kết hợp sự thoải mái và độ bền bạn muốn với hệ thống nhập FlyEase giúp bạn nhập cảnh nhanh chóng và dễ dàng.Cái gì đó cũ, cái gì đó mới. Bàn chân trước rộng hơn có nghĩa là có nhiều không gian hơn cho các ngón chân của bạn, trong khi độ vừa vặn của giày duy trì cảm giác thoải mái mà bạn mong đợi từ Pegasus. Lưới ở trên tạo cảm giác thoáng khí và sang trọng khi kéo dài bằng bàn chân của bạn để tạo hình dáng thoải mái và vừa vặn.Vào nhanh.Mục nhập mã zip giúp bạn dễ dàng lên và xuống nhanh chóng. Viền không dây buộc cho phép bạn cố định vừa vặn bằng 1 tay.Mùa xuân với bước của bạn.Bọt Nike React nhẹ, có độ đàn hồi và độ bền cao. Nhiều bọt hơn có nghĩa là đệm tốt hơn mà không có số lượng lớn. Một bộ phận Zoom Air mang lại cho bạn cảm giác thoải mái hơn với mỗi bước. Nó được đặt gần chân của bạn hơn để phản hồi. Phù hợp an toàn. Vải lót giữa bàn chân giữ chặt bàn chân của bạn khi bạn thắt chặt các dây buộc để có cảm giác vừa khít và vừa vặn. Nhiều lợi ích hơn",
-  },
-  {
-    title: "Jordan Air NFH",
-    price: "1590000",
-    image01: product_01_image_01,
-    image02: product_01_image_02,
-    categorySlug: "giay-jordan",
-    colors: ["white", "black"],
-    slug: "giay-jordan-air-nfh",
-    size: ["42", "42.5", "43", "43.5"],
-    description:
-      "Con đường là đường băng của bạn. Hãy sẵn sàng để bay trên ngựa lao động với đôi cánh. Khởi động bài chạy hàng ngày của bạn với một lò xo trong bước của bạn và đệm hỗ trợ để giúp vượt qua đối thủ cạnh tranh khốc liệt nhất của bạn — chính bạn. Lưới ở phía trên kết hợp sự thoải mái và độ bền bạn muốn với hệ thống nhập FlyEase giúp bạn nhập cảnh nhanh chóng và dễ dàng.Cái gì đó cũ, cái gì đó mới. Bàn chân trước rộng hơn có nghĩa là có nhiều không gian hơn cho các ngón chân của bạn, trong khi độ vừa vặn của giày duy trì cảm giác thoải mái mà bạn mong đợi từ Pegasus. Lưới ở trên tạo cảm giác thoáng khí và sang trọng khi kéo dài bằng bàn chân của bạn để tạo hình dáng thoải mái và vừa vặn.Vào nhanh.Mục nhập mã zip giúp bạn dễ dàng lên và xuống nhanh chóng. Viền không dây buộc cho phép bạn cố định vừa vặn bằng 1 tay.Mùa xuân với bước của bạn.Bọt Nike React nhẹ, có độ đàn hồi và độ bền cao. Nhiều bọt hơn có nghĩa là đệm tốt hơn mà không có số lượng lớn. Một bộ phận Zoom Air mang lại cho bạn cảm giác thoải mái hơn với mỗi bước. Nó được đặt gần chân của bạn hơn để phản hồi. Phù hợp an toàn. Vải lót giữa bàn chân giữ chặt bàn chân của bạn khi bạn thắt chặt các dây buộc để có cảm giác vừa khít và vừa vặn. Nhiều lợi ích hơn",
-  },
-  {
-    title: "Nike Metcon 7",
-    price: "1900000",
-    image01: product_02_image_01,
-    image02: product_02_image_02,
-    categorySlug: "giay-training-gym",
-    colors: ["white", "red"],
-    slug: "giay-nike-metcon-7",
-    size: ["42", "42.5", "43", "43.5"],
-    description:
-      "Con đường là đường băng của bạn. Hãy sẵn sàng để bay trên ngựa lao động với đôi cánh. Khởi động bài chạy hàng ngày của bạn với một lò xo trong bước của bạn và đệm hỗ trợ để giúp vượt qua đối thủ cạnh tranh khốc liệt nhất của bạn — chính bạn. Lưới ở phía trên kết hợp sự thoải mái và độ bền bạn muốn với hệ thống nhập FlyEase giúp bạn nhập cảnh nhanh chóng và dễ dàng.Cái gì đó cũ, cái gì đó mới. Bàn chân trước rộng hơn có nghĩa là có nhiều không gian hơn cho các ngón chân của bạn, trong khi độ vừa vặn của giày duy trì cảm giác thoải mái mà bạn mong đợi từ Pegasus. Lưới ở trên tạo cảm giác thoáng khí và sang trọng khi kéo dài bằng bàn chân của bạn để tạo hình dáng thoải mái và vừa vặn.Vào nhanh.Mục nhập mã zip giúp bạn dễ dàng lên và xuống nhanh chóng. Viền không dây buộc cho phép bạn cố định vừa vặn bằng 1 tay.Mùa xuân với bước của bạn.Bọt Nike React nhẹ, có độ đàn hồi và độ bền cao. Nhiều bọt hơn có nghĩa là đệm tốt hơn mà không có số lượng lớn. Một bộ phận Zoom Air mang lại cho bạn cảm giác thoải mái hơn với mỗi bước. Nó được đặt gần chân của bạn hơn để phản hồi. Phù hợp an toàn. Vải lót giữa bàn chân giữ chặt bàn chân của bạn khi bạn thắt chặt các dây buộc để có cảm giác vừa khít và vừa vặn. Nhiều lợi ích hơn",
+      `Thành phần: hạt điều sấy, muối, gia vị tổng tợp
+
+Công dụng:
+- Ngăn ngừa ung thư
+- Nuôi dưỡng tóc và da
+- Duy trì sức khỏe tim mạch
+- Tốt cho sức khỏe của xương
+- Tốt cho thần kinh
+- Cải thiện chức năng não
+- Giảm cân
+
+Hướng dẫn sử dụng: ăn trực tiếp
+
+Hướng dẫn bảo quản: Bảo quản tại nơi thoáng mát, khô ráo, tránh ánh nắng trực tiếp.
+
+Trọng lượng: 200gram – 500gram
+
+- Xuất xứ: Việt Nam
+- Hạn sử dụng: 06 tháng kể từ ngày sản xuất
+
+#hatdieu #hatdieurangmuoi #hatdieusay #giamcan #timmach #ankieng #traicaysay #hatdinhduong #hatsay
+`,
   },
 ];
 

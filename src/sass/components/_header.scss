@@ -1,5 +1,4 @@
 .header {
-  background-color: $main-bg;
   position: fixed;
   top: 0;
   left: 0;
@@ -20,6 +19,7 @@
   &.shrink {
     height: $header-shrink-height;
     box-shadow: $box-shadow;
+    background-color: $main-bg;
   }
   &__logo {
     @include flex(center, center);

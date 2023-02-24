@@ -26,9 +26,6 @@ const ProductCard = (props) => {
         <span className="product-card__price__new">
           {numberWithCommas(props.price)}
         </span>
-        <span className="product-card__price__old">
-          <del>{numberWithCommas(3232132)}</del>
-        </span>
       </div>
 
       <div className="product-card__btn">

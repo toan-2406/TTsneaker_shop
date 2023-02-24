@@ -9,7 +9,7 @@ import ProductView from "../components/ProductView";
 
 const Product = (props) => {
   const product = productData.getProductBySlug(props.match.params.slug);
-
+console.log(product);
   const relatedProduct = productData.getProducts(8);
 
   React.useEffect(() => {
@@ -27,11 +27,11 @@ const Product = (props) => {
         <SectionTitle>Khám Phá Thêm</SectionTitle>
         <SectionBody>
           <Grid col={4} mdCol={2} smCol={1} gap={20}>
-            {relatedProduct.map((item, index) => (
+            {relatedProduct?.map((item, index) => (
               <ProductCard
                 key={index}
-                img1={item.image01}
-                img2={item.image02}
+                img1={item.images[0]}
+                img2={item.images[1]}
                 name={item.title}
                 price={Number(item.price)}
                 slug={item.slug}

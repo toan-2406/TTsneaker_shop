@@ -1,5 +1,7 @@
 .catalog {
-  @include flex(flex-start, flex-start);
+ display: flex;
+ align-items: center;
+ justify-content: space-around;
   @include tablet {
     flex-direction: column;
   }

@@ -13,6 +13,7 @@ import ProductCard from "../components/ProductCard";
 import bannersale from "../assets/images/bannersale.jpg";
 
 const Home = () => {
+  console.log(productData)
   return (
     <Helmet title="Trang chủ">
       {/*HeroSlider*/}
@@ -51,8 +52,8 @@ const Home = () => {
             {productData.getProducts(4).map((item, index) => (
               <ProductCard
                 key={index}
-                img1={item.image01}
-                img2={item.image02}
+                img1={item.images[0]}
+                img2={item.images[1]}
                 name={item.title}
                 price={Number(item.price)}
                 slug={item.slug}
@@ -71,8 +72,8 @@ const Home = () => {
             {productData.getProducts(8).map((item, index) => (
               <ProductCard
                 key={index}
-                img1={item.image01}
-                img2={item.image02}
+                img1={item.images[0]}
+                img2={item.images[1]}
                 name={item.title}
                 price={Number(item.price)}
                 slug={item.slug}
@@ -100,8 +101,8 @@ const Home = () => {
             {productData.getProducts(12).map((item, index) => (
               <ProductCard
                 key={index}
-                img1={item.image01}
-                img2={item.image02}
+                img1={item.images[0]}
+                img2={item.images[1]}
                 name={item.title}
                 price={Number(item.price)}
                 slug={item.slug}

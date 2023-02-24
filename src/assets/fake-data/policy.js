@@ -15,8 +15,8 @@ const policy = [
         icon: "bx bx-diamond"
     },
     {
-        name: "Hỗ trợ bảo hành",
-        description: "Đổi, sửa giày tại tất cả store",
+        name: "Hỗ trợ đổi trả",
+        description: "Đổi trả và hoàn tiền nếu sản phẩm lỗi",
         icon: "bx bx-donate-heart"
     }
 ]

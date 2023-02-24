@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import PropTypes from "prop-types";
-
+import ReactMarkdown from 'react-markdown'
 import { withRouter } from "react-router";
 
 import { addItems } from "../redux/shopping-cart/cartItemSlide";
@@ -22,7 +22,7 @@ const ProductView = (props) => {
       size: [],
     };
 
-  const [previewImg, setPreviewImg] = useState(product.image01);
+  const [previewImg, setPreviewImg] = useState("");
 
   const [descriptionExpand, setDescriptionExpand] = useState(false);
 
@@ -39,9 +39,14 @@ const ProductView = (props) => {
       setQuantity(quantity + 1);
     }
   };
-
   useEffect(() => {
-    setPreviewImg(product.image01);
+   console.log(previewImg)
+  }, [previewImg]);
+  useEffect(() => {
+    if (product && product.images && product.images.length > 0) {
+      setPreviewImg(product.images[0]);
+    }
+
     setQuantity(1);
     setColor(undefined);
     setSize(undefined);
@@ -96,18 +101,19 @@ const ProductView = (props) => {
       <div className="product__img">
         <div className="product__img__list">
           <div className="product__img__list__item">
-            <img
-              src={product.image01}
-              alt=""
-              onClick={() => setPreviewImg(product.image01)}
-            />
-          </div>
-          <div className="product__img__list__item">
-            <img
-              src={product.image02}
-              alt=""
-              onClick={() => setPreviewImg(product.image02)}
-            />
+            {
+              product && product.images && product.images.length > 0 ? product.images.map((item,index)=>{
+                return(
+                  <img
+                  key={index}
+                  src={item}
+                  alt=""
+                  onClick={() => setPreviewImg(item)}
+                />
+                )
+              }):null
+            }
+           
           </div>
         </div>
         <div className="product__img__main">
@@ -121,8 +127,8 @@ const ProductView = (props) => {
           <div className="product__description__title">Chi Tiết Sản Phẩm</div>
           <div
             className="product__description__content"
-            dangerouslySetInnerHTML={{ __html: product.description }}
-          ></div>
+            // dangerouslySetInnerHTML={{ __html: product.description }}
+          ><ReactMarkdown children={product.description}  /></div>
           <div className="product__description__toggle">
             <Button
               size="sm"
@@ -151,7 +157,7 @@ const ProductView = (props) => {
                 key={index}
                 onClick={() => setColor(item)}
               >
-                <div className={`circle bg-${item}`}></div>
+                <div >{item}</div>
               </div>
             ))}
           </div>
